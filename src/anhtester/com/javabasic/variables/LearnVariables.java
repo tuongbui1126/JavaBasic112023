@@ -4,7 +4,7 @@ public class LearnVariables {
 
     static int age = 26; //Biến toàn cục static có thể gọi vô duoc 1 hàm bất kỳ
     static int number = 20;
-    public void sayHello() {
+    public static void sayHello() {
         int n = 10;                     // Đây là biến local (nội bộ) > ko gọi duoc vô 1 hàm bất kỳ. Chỉ dùng nội bộ
         System.out.println("Gia tri cua n la: " + n);
     }
